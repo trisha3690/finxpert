@@ -3,6 +3,7 @@ import "./globals.css";
 // Corrected import statement
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
+
 import Header from "@/components/ui/header";
 
 const inter = Inter_Tight({ subsets: ["latin"] });
@@ -14,7 +15,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <ClerkProvider>
       <html lang="en">
+
         <body className={`${inter.className}`}>
           {/* header */}
           <Header />
@@ -38,6 +41,7 @@ export default function RootLayout({ children }) {
           </footer>
         </body>
       </html>
-
+    </ClerkProvider>
   );
 }
+

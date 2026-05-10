@@ -27,12 +27,12 @@ export default function RootLayout({ children }) {
               <p>
                 ©️Made With 💖 By{" "}
                 <a
-                  href="http://v-sumank.netlify.app"
+                  href="https://github.com/trisha3690"
                   className="text-blue-600 cursor-pointer"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Suman
+                  Tanisha Chakraborty
                 </a>
               </p>
             </div>

@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Tanisha Chakraborty
+                  Tanisha Chakraborty 
                 </a>
               </p>
             </div>

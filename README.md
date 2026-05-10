@@ -100,4 +100,5 @@ For more deployment options, refer to the official guide.
 
 Built with ❤️ using Next.js
 
-Powered by Vercel
+Powered by Vercel Web Application
+
